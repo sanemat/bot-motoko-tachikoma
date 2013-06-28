@@ -4,6 +4,7 @@ bot-motoko-tachikoma
 Sample for tachikoma
 
 Use tachikoma as gem
+----
 
 ```
  /Gemfile
@@ -33,3 +34,11 @@ $ touch repos/.gitkeep
 Then, `BUILD_FOR=foo TAKEN_FOO=foo bundle exec tachikoma:load tachikoma:fetch tachikoma:bundle tachikoma:pull_request`
 
 It works!
+
+Configure example
+----
+```ruby
+namespace :tachikoma do
+  @default_timestamp_format = '%Y-%m-%d-%H-%M-%S%z'
+end
+```
