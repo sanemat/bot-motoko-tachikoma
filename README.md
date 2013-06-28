@@ -6,19 +6,19 @@ Sample for tachikoma
 Use tachikoma as gem
 
 ```
-/Gemfile
+ /Gemfile
 source "https://rubygems.org"
 gem 'tachikoma', github: 'sanemat/tachikoma'
 ```
 
 ```
-/.gitignore
+ /.gitignore
 /repos/*
 !/repos/.gitkeep
 ```
 
 ```
-/Rakefile
+ /Rakefile
 require 'bundler/setup'
 require 'tachikoma/tasks'
 ```
