@@ -31,7 +31,7 @@ $ touch repos/.gitkeep
 # Add your yaml file
 ```
 
-Then, `BUILD_FOR=foo TAKEN_FOO=foo bundle exec tachikoma:load tachikoma:fetch tachikoma:bundle tachikoma:pull_request`
+Then, `BUILD_FOR=foo TAKEN_FOO=foo bundle exec rake tachikoma:load tachikoma:fetch tachikoma:bundle tachikoma:pull_request`
 
 It works!
 
