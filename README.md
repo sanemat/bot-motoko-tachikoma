@@ -35,7 +35,7 @@ Then,
 
 ```
 $ BUILD_FOR=foo \
-  TAKEN_FOO=foo \
+  TOKEN_FOO=foo \
   bundle exec rake tachikoma:load tachikoma:fetch tachikoma:bundle tachikoma:pull_request
 ```
 
