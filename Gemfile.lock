@@ -1,13 +1,3 @@
-GIT
-  remote: git://github.com/sanemat/tachikoma.git
-  revision: a21eeaa0b4e87739532f7689ba592fcd6ec6117e
-  specs:
-    tachikoma (2.1.3.beta)
-      httparty
-      multi_json
-      rake
-      safe_yaml
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -17,10 +7,15 @@ GEM
     multi_json (1.7.7)
     multi_xml (0.5.4)
     rake (10.1.0)
-    safe_yaml (0.9.3)
+    safe_yaml (0.9.4)
+    tachikoma (3.0.1)
+      httparty
+      multi_json
+      rake
+      safe_yaml
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  tachikoma!
+  tachikoma
