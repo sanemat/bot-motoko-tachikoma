@@ -9,7 +9,7 @@ Use tachikoma as gem
 ```
  /Gemfile
 source "https://rubygems.org"
-gem 'tachikoma', github: 'sanemat/tachikoma'
+gem 'tachikoma'
 ```
 
 ```
@@ -21,15 +21,11 @@ gem 'tachikoma', github: 'sanemat/tachikoma'
 ```
  /Rakefile
 require 'bundler/setup'
-require 'tachikoma'
 require 'tachikoma/tasks'
 ```
 
 ```
-$ mkdir -p data
-$ mkdir -p repos
-$ touch repos/.gitkeep
-# Add your yaml file
+# Add your yaml file to data/YOUR.yaml
 ```
 
 Then,
@@ -41,16 +37,3 @@ $ BUILD_FOR=foo \
 ```
 
 It works!
-
-Configure example
-----
-
-
-```ruby
-# /Rakefile
-Tachikoma.root_path = File.expand_path(__FILE__) # reset `root_path`
-
-namespace :tachikoma do
-  @default_timestamp_format = '%Y-%m-%d-%H-%M-%S%z'
-end
-```
