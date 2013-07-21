@@ -7,6 +7,7 @@ GEM
     faraday_middleware (0.9.0)
       faraday (>= 0.7.4, < 0.9)
     hashie (2.0.5)
+    json (1.8.0)
     multi_json (1.7.7)
     multipart-post (1.2.0)
     netrc (0.7.7)
@@ -29,5 +30,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  json
   oj
   tachikoma
