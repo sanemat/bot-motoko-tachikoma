@@ -1,24 +1,31 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.3.5)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
+    faraday_middleware (0.9.0)
+      faraday (>= 0.7.4, < 0.9)
+    hashie (2.0.5)
     json (1.8.0)
+    multi_json (1.8.0)
     multipart-post (1.2.0)
-    octokit (2.1.1)
-      sawyer (~> 0.3.0)
+    netrc (0.7.7)
+    octokit (1.25.0)
+      addressable (~> 2.2)
+      faraday (~> 0.8)
+      faraday_middleware (~> 0.9)
+      hashie (~> 2.0)
+      multi_json (~> 1.3)
+      netrc (~> 0.7.7)
     oj (2.1.4)
     rake (10.1.0)
     safe_yaml (0.9.5)
-    sawyer (0.3.0)
-      faraday (~> 0.8, < 0.10)
-      uri_template (~> 0.5.0)
-    tachikoma (3.0.7)
+    tachikoma (3.0.8)
       json
-      octokit
+      octokit (< 2)
       rake
       safe_yaml
-    uri_template (0.5.3)
 
 PLATFORMS
   ruby
