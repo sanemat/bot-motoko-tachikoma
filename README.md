@@ -37,3 +37,13 @@ $ BUILD_FOR=foo \
 ```
 
 It works!
+
+### Example for carton
+
+Tachikoma gets ability for carton on v3.0.9.
+
+```bash
+$ BUILD_FOR=cpanmetadb-perl \
+TOKEN_CPANMETADB_PERL=github-access-token \
+bundle exec rake tachikoma:load tachikoma:fetch tachikoma:carton tachikoma:pull_request
+```
