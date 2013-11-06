@@ -1,7 +1,7 @@
 bot-motoko-tachikoma
 ====================
 
-Sample for [tachikoma](https://github.com/sanemat/tachikoma)
+Sample for [tachikoma](https://rubygems.org/gems/tachikoma)
 
 Use tachikoma as gem
 ----
