@@ -1,7 +1,7 @@
 bot-motoko-tachikoma
 ====================
 
-Sample for tachikoma
+Sample for [tachikoma](https://github.com/sanemat/tachikoma)
 
 Use tachikoma as gem
 ----
@@ -49,7 +49,7 @@ bundle exec rake tachikoma:run_carton
 It works!
 
 ----
-Below _v3.1_:
+Below _v3.1_ (Too Old API):
 
 ```
 $ BUILD_FOR=foo \
