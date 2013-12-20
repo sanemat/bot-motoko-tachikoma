@@ -1,12 +1,13 @@
 GIT
   remote: git://github.com/sanemat/tachikoma.git
-  revision: 9719c94b1998200945682161dad50075e04833d6
+  revision: 6b26638dc0c5fe253279ee6cca01c8beb4bd64db
   specs:
     tachikoma (4.0.2.beta)
       json
       octokit (>= 2, < 3)
       rake
       safe_yaml
+      thor
 
 GEM
   remote: https://rubygems.org/
@@ -18,12 +19,13 @@ GEM
     multipart-post (1.2.0)
     octokit (2.6.3)
       sawyer (~> 0.5.1)
-    oj (2.4.2)
+    oj (2.5.1)
     rake (10.1.0)
     safe_yaml (0.9.7)
-    sawyer (0.5.1)
+    sawyer (0.5.2)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
+    thor (0.18.1)
 
 PLATFORMS
   ruby
