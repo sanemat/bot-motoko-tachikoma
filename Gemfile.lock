@@ -1,10 +1,10 @@
 GIT
   remote: git://github.com/sanemat/tachikoma.git
-  revision: d04bf7449480306c7d140e3da020c9c374aa2337
+  revision: d6a866f3371d1dc33c219812d36b19e655add46e
   specs:
-    tachikoma (4.0.4.beta)
+    tachikoma (4.1.0.beta)
       json
-      octokit (~> 3.0.0)
+      octokit (>= 3.0, < 3.2)
       rake
       safe_yaml
       thor
@@ -17,11 +17,11 @@ GEM
       multipart-post (>= 1.2, < 3)
     json (1.8.1)
     multipart-post (2.0.0)
-    octokit (3.0.0)
+    octokit (3.1.0)
       sawyer (~> 0.5.3)
-    oj (2.7.3)
-    rake (10.2.2)
-    safe_yaml (1.0.2)
+    oj (2.8.1)
+    rake (10.3.1)
+    safe_yaml (1.0.3)
     sawyer (0.5.4)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
