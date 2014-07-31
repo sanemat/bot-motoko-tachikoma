@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/sanemat/tachikoma.git
-  revision: 9cca8c94fe632ab185fe85e0350098525f6faf92
+  revision: 5893e9d0ecaab7f08ddf0db6ea1dedc7a7a94b45
   specs:
     tachikoma (4.1.0.beta)
       json
