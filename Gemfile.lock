@@ -20,7 +20,7 @@ GEM
     octokit (3.5.2)
       sawyer (~> 0.5.3)
     oj (2.10.4)
-    rake (10.3.2)
+    rake (12.3.3)
     safe_yaml (1.0.4)
     sawyer (0.5.5)
       addressable (~> 2.3.5)
